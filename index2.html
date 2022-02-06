@@ -20,33 +20,33 @@
     </header>
     <section class="formulario">
         <div class="divForm">
-            <p>Faça parte do nosso time</p>
+            <p id="pTime">Faça parte do nosso time</p>
             <form action="/registro" method="get">
-                <p>
+                <p class="input">
                     <label for="nome" name="nome" id="nome">Nome</label>
                     <input type="text" name="nome">
                 </p>
-                <p>
+                <p class="input">
                     <label for="email" name="email" id="email">Email</label>
                     <input type="email" name="email">
                 </p>
-                <p>
+                <p class="input">
                     <label for="telefone" name="telefone" id="telefone">Telefone</label>
                     <input type="tel" name="email">
                 </p>
-                <p>
+                <p class="input">
                     <label for="departamentos" name="departamentos" id="departamentos">Departamentos</label>
-                    <select name="departamentos">
+                    <select name="departamentos" id="departamentos">
                         <option value="opcao">Opção 1</option>
                         <option value="opcao">Opção 2</option>
                         <option value="opcao">Opção 3</option>
                         <option value="opcao">Opção 4</option>
                     </select>
                 </p>
-                <p>
+                <p class="input">
                     <label for="disponibilidade" name="disponibilidade" id="disponibilidade">Disponibilidade</label>
                 </p>
-                <p>
+                <p class="input" id="disponibilidade">
                     <label for="integral" name="integral" id="integral">Integral</label>
                     <input type="checkbox" name="integral" value="Integral (8h)">
                     <label for="meio" name="meio" id="meio">Meio</label>
@@ -54,10 +54,10 @@
                     <label for="freelancer" name="freelancer" id="freelancer">Freelancer</label>
                     <input type="checkbox" name="disponibilidade" value="Freelancer">
                 </p>
-                <p>
+                <p class="input"> 
                     <label for="contato" name="contato" id="contato">Qual a melhor forma para entrarmos em contato com você?</label>
                 </p>
-                <p>
+                <p class="input" id="disponibilidade">
                     <label for="contato" name="contato" id="email">Email</label>
                     <input type="radio" name="contato" value="email">
                     <label for="contato" name="contato" id="ligacao">Ligação</label>
@@ -65,11 +65,11 @@
                     <label for="contato" name="contato" id="whatsapp">Whatsapp</label>
                     <input type="radio" name="contato" value="whatsapp">
                 </p>
-                <p>
-                    <label for="mensagem" name="mensagem" id="mensagem">Mensagem</label>
+                <p class="input" >
+                    <label for="mensagem" name="mensagem">Mensagem</label>
                     <textarea name="mensagem" id="mensagem">Mensagem</textarea>
                 </p>
-                <p>
+                <p class="input">
                     <label for="curriculo" name="curriculo" id="curriculo">Currículo</label>
                     <input type="file" name="curriculo" accept=".doc,.pdf">
                 </p>
@@ -109,5 +109,8 @@
             </ul>
         </div>
     </footer>
+    <div id="promocao">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
 </body>
 </html>

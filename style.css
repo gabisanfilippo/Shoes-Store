@@ -129,8 +129,71 @@ header{
     align-items: center;
 }
 .divForm{
-    
+    width: 150%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .divP{
-    border-width: 25%;
+    padding-right: 10%;
+}
+#pTime{
+    font-weight: 900;
+    font-size: 150%;
+}
+.divForm input{
+    width: 70%;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+#disponibilidade{
+    flex-direction: row;
+    width: 70%;
+}
+#departamentos{
+    width: 70%;
+}
+#mensagem{
+    width: 70%;
+    height: 100%;
+}
+#promocao{
+    background-color: #C2185B;
+    text-align: center;
+    color: #ffffff;
+    padding: 1%;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+
+@media (max-width: 769px){
+    #banner{
+        width: 100%;
+    }
+    .estiloImg{
+        flex-direction: column;
+    }
+    .estiloImg img{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+    .vendidos{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sandalia{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sandalia div{
+        margin-bottom: 5%;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
 }
