@@ -159,15 +159,25 @@ header{
     width: 70%;
     height: 100%;
 }
+.enviar{
+    width: 70%;
+    background-color: #C2185B;
+    color: white;
+    border: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 #promocao{
     background-color: #C2185B;
     text-align: center;
     color: #ffffff;
     padding: 1%;
     position: absolute;
-    top: 15%;
+    top: 90px;
     width: 100%;
 }
+
 
 @media (max-width: 769px){
     #banner{
@@ -195,5 +205,17 @@ header{
     }
     .footer{
         flex-wrap: wrap;
+    }
+    .formulario{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .divP{
+        padding: 10%;
+    }
+    .divForm{
+        padding: 20%;
+        padding-bottom: 10%;
+        
     }
 }
